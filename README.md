@@ -2,7 +2,7 @@
 
 ## It does...
 
-AWASE server gives REST-like API for choosing evnet holding date.
+AWASE server gives REST-like API for choosing event holding date.
 
 ## It does not...
 
