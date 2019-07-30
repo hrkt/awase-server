@@ -1,0 +1,16 @@
+basePath: /v2
+host: xxx.xxx.xxx
+info:
+  contact:
+    email: doesnotexist@example.com
+    name: API Support
+    url: https://github.com/hrkt/awase-server
+  description: AWASE server
+  license:
+    name: MIT
+    url: https://github.com/hrkt/awase-server
+  termsOfService: https://github.com/hrkt/awase-server
+  title: AWASE API
+  version: "0.1"
+paths: {}
+swagger: "2.0"

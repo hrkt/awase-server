@@ -1,0 +1,21 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "AWASE server",
+        "title": "AWASE API",
+        "termsOfService": "https://github.com/hrkt/awase-server",
+        "contact": {
+            "name": "API Support",
+            "url": "https://github.com/hrkt/awase-server",
+            "email": "doesnotexist@example.com"
+        },
+        "license": {
+            "name": "MIT",
+            "url": "https://github.com/hrkt/awase-server"
+        },
+        "version": "0.1"
+    },
+    "host": "xxx.xxx.xxx",
+    "basePath": "/v2",
+    "paths": {}
+}
