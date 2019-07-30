@@ -102,4 +102,4 @@ MIT
 
 # CI
 
-[![CircleCI](https://circleci.com/gh/hrkt/cmd-exec-server.svg?style=svg)](https://circleci.com/gh/hrkt/cmd-exec-server)
+[![CircleCI](https://circleci.com/gh/hrkt/awase-server.svg?style=svg)](https://circleci.com/gh/hrkt/awase-server)
