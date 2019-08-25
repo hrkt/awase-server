@@ -6,7 +6,7 @@ import (
 )
 
 type RepositoryInMemory struct {
-	Events []Event
+	Events []*Event
 }
 
 var repositoryInMemory *RepositoryInMemory
@@ -16,14 +16,14 @@ func init() {
 	repositoryInMemory = &RepositoryInMemory{}
 }
 
-func SaveEvent(event Event) {
+func SaveEvent(event *Event) {
 	log.Println("save event:" + event.ID)
 	log.Println(len(repositoryInMemory.Events))
 	repositoryInMemory.Events = append(repositoryInMemory.Events, event)
 	log.Println(len(repositoryInMemory.Events))
 }
 
-func LoadEvent(eventID string) (Event, error) {
+func LoadEvent(eventID string) (*Event, error) {
 	log.Println("load event")
 
 	for _, evt := range repositoryInMemory.Events {
@@ -32,7 +32,7 @@ func LoadEvent(eventID string) (Event, error) {
 		}
 	}
 
-	return Event{}, ErrNotFound
+	return &Event{}, ErrNotFound
 }
 
 func LoadEventIds() []string {

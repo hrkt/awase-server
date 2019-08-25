@@ -11,8 +11,8 @@ type Event struct {
 	Entries        []EventEntry
 }
 
-func NewEvent(label string) Event {
-	event := Event{}
+func NewEvent(label string) *Event {
+	event := &Event{}
 	event.ID = uuid.New().String()
 	event.Label = label
 	event.CandidateDates = []CandidateDate{}
